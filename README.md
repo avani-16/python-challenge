@@ -1,6 +1,6 @@
 # python-challenge
 
-# Financial Analysis (PyBank)
+## Financial Analysis (PyBank)
 
 ![Revenue](Images/revenue-per-lead.png)
 
@@ -16,7 +16,7 @@ With a set of financial data called budget_data.csv, the dataset is composed of 
 
 
 
-# Election Analysis (PyPoll)
+## Election Analysis (PyPoll)
 
 ![Vote_counting](Images/Vote_counting.png)
 

@@ -30,11 +30,13 @@ with open(election_csv, encoding = 'UTF-8') as csvfile:
         count_list[row[2]] += 1
 #print(count_list)
   
+    # Print Total votes in terminal
     print(f"Election Results")
     print("----------------------")
     print(f"Total Votes: {total_vote}")
     print("----------------------")
     
+    # Print Total Votes in text file (Created "Analysis" folder and sent file there )
     with open('analysis/Election_result.txt','w') as f:
         f.write("Election Results\n\n")
         f.write("--------------------------\n\n")
